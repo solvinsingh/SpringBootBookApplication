@@ -25,7 +25,7 @@ import com.cts.ba.service.CrudUtilService;
 
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(locations = { "test-context.xml" })
+@ContextConfiguration(locations = { "/test-context.xml" })
 public class BookServiceAndDAOTest {
 
 	private SubjectDAO mockSubjectDAOImpl;
